@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media screen  (max-width: 767px) {
+
+.nav{
+  display:flex:
+  height: 100vh;
+  background-color: rgb(34, 107, 107);
+}
+.nav-start{
+  flex-grow:5;
+}
+}

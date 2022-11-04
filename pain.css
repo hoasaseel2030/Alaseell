@@ -1,0 +1,640 @@
+/*----------------body------------------*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media(min-width:1024px) {
+
+
+  body {
+    height: 1500px;
+  }
+
+  #check,
+  #btn,
+  #cancel,
+  .set,
+  .price,
+  .sub,
+  .res,
+  .nav h1,
+  .rese,
+  .cara {
+    display: none;
+  }
+
+  /*------------------body end--------------------*/
+  /*---------------------english دخول وانشاء حساب و ul------------------------*/
+  .medo {
+    float: left;
+  }
+
+  .medo ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .medo li {
+    float: right;
+    display: inline-block;
+    padding: 15px;
+    padding-right: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(221, 221, 226);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .medo li:hover {
+    background-color: rgb(4 4 31 / 35%);
+  }
+
+  @media (max-width: 767px) {
+    .medo li {
+      padding-right: 15px;
+      font-weight: none;
+    }
+  }
+
+  /*-----------------------------ul end-------------------------------------*/
+
+  /*------------------------------المزيد ووسيط عقاري بحثul----------------------------------*/
+  .aser {
+    width: 100%;
+    background-color: rgb(71, 59, 241);
+    height: 50px;
+  }
+
+  .aser #logo {
+    float: right;
+    height: 25px;
+    padding: 2px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 43px;
+    color: rgb(251, 251, 255);
+  }
+
+  .aser ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .aser li {
+    float: right;
+    display: inline-block;
+    padding: 15px;
+    padding-left: 5px;
+    padding-right: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(221, 221, 226);
+    text-decoration: none;
+  }
+
+  @media (max-width:767px) {
+    .aser li {
+      padding: 8px;
+      padding-left: 20px;
+      padding-right: 38;
+      font-weight: none;
+      font-size: 17px;
+      margin-top: 10px;
+    }
+  }
+
+  .aser li:hover {
+    background-color: rgb(4 4 31 / 35%);
+  }
+
+  .jkl {
+    color: rgb(221, 221, 226);
+    text-decoration: none;
+  }
+
+  .wer {
+    position: absolute;
+    top: 60px;
+    width: 165px;
+    overflow: hidden;
+    background-color: rgb(112, 71, 179);
+    max-height: 0;
+  }
+
+  .wer a {
+    color: rgb(221, 221, 226);
+    text-decoration: none;
+  }
+
+  .zxc {
+    padding: 0;
+  }
+
+  .zxc ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .zxc ul li a {
+    padding: 10px 20px;
+  }
+
+  .jkl {
+    margin-top: -9px;
+    padding: 10px 20px;
+  }
+
+  @media (max-width:767px) {
+    .jkl {
+      position: relative;
+      top: -4.5px;
+      right: -8px;
+      padding: 10px 17px;
+    }
+  }
+
+  .jkl:focus~.wer {
+    max-height: 500px;
+  }
+
+  /*-------------------------ul end-----------------------------*/
+
+  /*-------------------------نشاطاتي وتنبيهاتيو رصيدي ul-----------------------*/
+  .mama {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+  }
+
+  .mama ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .mama li {
+    float: right;
+    display: inline-block;
+    padding: 25px;
+    margin-top: -15px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(12, 11, 14);
+    text-decoration: none;
+  }
+
+  .mama li:hover {
+    color: rgb(71, 59, 241);
+  }
+
+  /*-------------------------ul end--------------------------*/
+
+  /*-------------------------h1وp الinput---------------------------*/
+  .papa {
+    background-color: rgb(71, 59, 241);
+    width: 100%;
+    height: 550px;
+  }
+
+  .roro h1 {
+    float: right;
+    padding-right: 120px;
+    padding-top: 70px;
+    color: rgb(251, 251, 255);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  p {
+    float: right;
+    padding-left: 900px;
+    padding-right: 122px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(251, 251, 255);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  /*--------------------h1 and p end-------------------------*/
+
+  /*-------------------------body input-----------------------*/
+  select {
+    width: 190px;
+    height: 35px;
+    position: absolute;
+  }
+
+  .qqq {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 180px;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    margin-left: 150px;
+    margin-top: 210px;
+  }
+
+  /*------------------------------body input end------------------------------*/
+
+  /*----------------------------------input نوع العقار----------------------------*/
+  #lala {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 20px;
+    padding: 1em 16em 1em 1.5em;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+  }
+
+  #lala option {
+    font-size: x-large;
+  }
+
+  .toto {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 800px;
+    pointer-events: none;
+  }
+
+  .wowo {
+    position: absolute;
+    margin-left: 969px;
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 15px;
+    pointer-events: none;
+  }
+
+  /*------------------------inputنوع العقار end---------------------------*/
+
+  /*-----------------------------input للبيع-------------------------*/
+  #xoxo {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 20px;
+    padding: 1em 16em 1em 1.5em;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+  }
+
+  #xoxo option {
+    font-size: x-large;
+  }
+
+  .pepe {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 450px;
+    pointer-events: none;
+  }
+
+  .veve {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 15px;
+    pointer-events: none;
+  }
+
+  /*---------------------------input للبيع end------------------------------*/
+
+  /*------------------------------input السعر--------------------------------*/
+  #popo {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 1em 16em 1em 1.5em;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+  }
+
+  #popo option {
+    font-size: x-large;
+  }
+
+  .koko {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 100px;
+    pointer-events: none;
+  }
+
+  .sese {
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 15px;
+    pointer-events: none;
+  }
+
+  /*---------------------------input السعر end------------------------------*/
+
+  /*--------------------------input المدينه او الحي او اسم الشارع----------------------------*/
+  .zse {
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 800px;
+    font-size: x-large;
+  }
+
+  .zse ::placeholder {
+    font-size: xx-small;
+  }
+
+  .azs {
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 1135px;
+  }
+
+  .zse:focus {
+    border-bottom: 1px solid rgb(14, 13, 13);
+  }
+
+  .zse:hover {
+    border-bottom: 1px solid rgb(14, 13, 13);
+  }
+
+  .qqq input {
+    position: absolute;
+    padding-top: 200px;
+  }
+
+  input {
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgb(17, 15, 15);
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 150px;
+    padding-left: 130px;
+  }
+
+  /*---------------------------inputالمدينه او الحي او اسم الشارعend-------------------------------*/
+
+  /*----------------------------input الزرار ابحث---------------------------*/
+  .qaz {
+    position: absolute;
+    background-color: rgb(71, 59, 241);
+    font-weight: bold;
+    font-size: 25px;
+    color: aliceblue;
+    width: 120px;
+    height: 45px;
+    margin-top: 310px;
+    margin-left: 220px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    cursor: pointer;
+  }
+
+  .cara {
+    position: absolute;
+    margin-top: 318px;
+    margin-left: 305px;
+    color: aliceblue;
+  }
+
+  /*------------------------------input الزرار ابحثend-------------------------------------*/
+
+  /*----------------------------------input زرار محتاج مساعده--------------------------------*/
+  .rtrt {
+    position: absolute;
+    background-color: rgb(46, 39, 145);
+    color: aliceblue;
+    width: 190px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    margin-left: 1234px;
+    margin-top: 150px;
+    position: fixed;
+  }
+
+  .mtmt {
+    position: absolute;
+    color: aliceblue;
+    margin-right: 100px;
+    margin-left: 140px;
+    margin-top: 6px;
+    pointer-events: none;
+    transform: rotate(90deg);
+    margin-left: 1320px;
+    margin-top: 215px;
+    position: fixed;
+  }
+
+  .rtrt:hover {
+    background-color: rgb(240, 134, 14);
+  }
+
+  .rtrt:focus {
+    background-color: rgb(240, 134, 14);
+  }
+
+  /*---------------------------------input زرار محتاج مساعده end---------------------------------*/
+  /*---------------------------logo التحميل----------------------------*/
+  .xxx {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(71, 59, 241);
+    border-radius: 50%;
+    border: 4px solid rgb(194, 126, 126);
+    border-left-color: transparent;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /*---------------------------logo التحميل end----------------------------*/
+  .casr h2 {
+    padding-bottom: 20%;
+  }
+
+  .cam {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+  }
+
+
+
+  .campus {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .campus img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+  }
+
+  .layer {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+
+  .layer:hover {
+    background-color: rgba(226, 0, 0, 0.7);
+  }
+
+  .layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transform: tr;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+  }
+
+  .best {
+    background-color: #C7C0B3;
+    line-height: 40px;
+    height: 500px;
+  }
+
+  .best h2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+    padding-top: 6%;
+    font-size: 50px;
+    color: white;
+  }
+
+  .best h3 {
+    text-align: right;
+    margin-right: 15%;
+    padding-top: 8%;
+    font-size: 35px;
+    font-weight: bold;
+    color: #54595F;
+  }
+
+  .you {
+    color: #F1EEE8;
+    font-size: 40px;
+  }
+
+  .best p {
+    font-size: 33px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    line-height: 150%;
+    padding-top: 0;
+    bottom: 70%;
+    padding-right: 50%;
+  }
+
+  .beter {
+    background-color: #ffffff;
+    height: 450px;
+    padding: 10px;
+  }
+
+  .beter h2 {
+    text-align: right;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 18%;
+    padding-right: 10%;
+    color: #555555fd;
+  }
+
+  .beter p {
+    text-align: right;
+    font-size: 33px;
+    font-weight: bold;
+    color: #54595F;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 40%;
+  }
+}
